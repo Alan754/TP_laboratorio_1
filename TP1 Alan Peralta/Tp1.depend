@@ -11,3 +11,15 @@
 
 1599861139 c:\users\alan\desktop\tp1\alan.h
 
+1599864137 source:c:\users\alan\desktop\tp_laboratorio_1\tp1 alan peralta\alan.c
+	"alan.h"
+	<stdlib.h>
+	<stdio.h>
+
+1599861139 c:\users\alan\desktop\tp_laboratorio_1\tp1 alan peralta\alan.h
+
+1599863635 source:c:\users\alan\desktop\tp_laboratorio_1\tp1 alan peralta\main.c
+	<stdlib.h>
+	<stdio.h>
+	"alan.h"
+
