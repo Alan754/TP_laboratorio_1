@@ -2,7 +2,9 @@
 #include <stdlib.h>
 #include <string.h>
 #include "ArrayEmployees.h"
-#define TAM 3
+#define TAM 1000
+
+//PROFE LE RECOMIENDO QUE CAMBIE TAM SI NO AL MOMENTO DE INGRESAR EMPLEADOS SE LO VA APEDIR 1000 VECES PERDON NO SUPER ARREGLARLO
 
 
 int main()
