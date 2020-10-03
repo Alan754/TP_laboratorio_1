@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include "ArrayEmployees.h"
-#define TAM 1000
+
 
 
 int menu()
@@ -315,28 +315,3 @@ int promedioEmpleados(ePersona listaEmpleado[], int tam)
 }
 
 
-void ordenarEmpleadosApellido(ePersona listaEmpleado[],int cant, int criterio)
-{
-    int i;
-    int j;
-    ePersona auxEmpleado;
-    // printf("Lista de empleados ordenados por salario y legajo");
-    for(i=0; i<cant-1; i++)
-    {
-        for(j=i+1; j<cant; j++)
-        {
-            if(strcmp(listaEmpleado[i].apellido,listaEmpleado[j].apellido)>0 && criterio==0)
-            {
-                auxEmpleado=listaEmpleado[i];
-                listaEmpleado[i]=listaEmpleado[j];
-                listaEmpleado[j]=auxEmpleado;
-            }
-            /*else if(strcmp(listaEmpleado[i].lastName,listaEmpleado[j].lastName)<0 && criterio==1)
-            {
-                 auxEmpleado=listaEmpleado[i];
-                listaEmpleado[i]=listaEmpleado[j];
-                listaEmpleado[j]=auxEmpleado;
-            }*/
-        }
-    }
-}

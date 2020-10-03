@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <string.h>
 #include "ArrayEmployees.h"
+#define TAM 3
 
-#define TAM 1000
 
 int main()
 {
@@ -57,7 +57,7 @@ int main()
             }
             else
             {
-                printf("Primero debe cargar los empleados para modificar");
+                printf("Primero debe cargar los empleados para modificar\n");
             }
             break;
         case 3:
@@ -86,7 +86,7 @@ int main()
             }
             else
             {
-                printf("Primero debe cargar empleados para poder dar de baja ");
+                printf("Primero debe cargar empleados para poder dar de baja\n");
             }
             break;
         case 4:
@@ -96,7 +96,7 @@ int main()
             }
             else
             {
-                printf("Primero debe cargar empleados para poder dar de mostrar ordenado ");
+                printf("Primero debe cargar empleados para poder dar de mostrar ordenado\n");
             }
             break;
         case 5:
